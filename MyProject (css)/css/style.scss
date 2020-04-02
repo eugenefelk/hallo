@@ -1,0 +1,94 @@
+@import "nullstyle.scss";
+
+body {
+  background-color: #e8e8e8;
+}
+.content {
+  max-width: 824px;
+  margin: 0 auto;
+  padding: 123px 0;
+}
+.content-info {
+  margin: 0 0 125px 0;
+}
+.content-info__list1 {
+  margin: 0 0 60px 0;
+  li {
+    background: url("../img/check_icon.png") left 5px no-repeat;
+    padding: 0 0 0 30px;
+    font-size: 20px;
+    line-height: 34px;
+    color: #273d46;
+    font-weight: 400;
+  }
+  li:nth-child(1) {
+    &:hover {
+      text-decoration: line-through;
+    }
+  }
+  li:nth-child(2) {
+    &:hover {
+      font-weight: 700;
+    }
+  }
+  li:nth-child(3) {
+    &:hover {
+      font-style: italic;
+    }
+  }
+  li:nth-child(4) {
+    &:hover {
+      text-transform: uppercase;
+    }
+  }
+}
+.content-info__list2 {
+  margin: 0 0 130px 0;
+  li {
+    background: url("../img/check_icon.png") left 5px no-repeat;
+    padding: 0 0 0 30px;
+    font-size: 20px;
+    line-height: 34px;
+    color: #273d46;
+    font-weight: 400;
+    &:hover {
+      background: url("../img/check_icon2.png") left 5px no-repeat;
+      color: #d55a5a;
+    }
+  }
+}
+.content-info__link {
+  display: inline-block;
+  padding: 0 30px;
+  margin: 0 0 0 30px;
+  border-radius: 50px;
+  box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+  background: #80b7b3;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  &:hover {
+    background: #3a5856;
+  }
+  &:active {
+    background: #818181;
+  }
+  span {
+    background: url("../img/Shape_2.png") right no-repeat;
+    padding: 0 30px 0 0;
+  }
+}
+.textinput {
+  width: 292px;
+  height: 50px;
+  border: 1px solid #7fbed5;
+  &:hover{
+    box-shadow: 0 0 20px rgba(127, 190, 213, 0.93);
+  }
+}
+div{  
+background: url("../img/check_icon.png");
+}
